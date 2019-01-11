@@ -31,16 +31,8 @@ client.on('message', function(message){
 client.on('message', function(message) {
     if (message.author.equals(client.user)) return;
 
-    if (message.content == "v!vikturek") {
-        message.channel.sendMessage("Ted zrovna Vikturek Bude natacet videa z Minecraftu takze bude content!");
-    }
-});
-
-client.on('message', function(message) {
-    if (message.author.equals(client.user)) return;
-
     if (message.content == "v!info") {
-        message.channel.sendMessage("``Prefix= v!(Píšu se jen s malým (v)           Help= v!help");
+        message.channel.sendMessage("``Prefix= v!(Píšu se jen s malým (v)           Help= v!helpVikturekYoutube/vikturek");
     }
 });
 
