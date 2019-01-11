@@ -13,14 +13,6 @@ client.on('message', function(message) {
     console.log(message.content);
 });
 
-client.on('message', function(message) {
-    if (message.author.equals(client.user)) return;
-
-    if (message.content == "Ahoj") {
-        message.channel.sendMessage("Ahoj Vítej Zpět!");
-    }
-});
-
 client.on('message', function(message){
     if (message.content == "v!trigger") 
     {
@@ -33,14 +25,6 @@ client.on('message', function(message) {
 
     if (message.content == "v!info") {
         message.channel.sendMessage("``Prefix= v!(Píšu se jen s malým (v)           Help= v!help``");
-    }
-});
-
-client.on('message', function(message) {
-    if (message.author.equals(client.user)) return;
-
-    if (message.content == "cs") {
-        message.channel.sendMessage("Ahoj Vítej Zpět!");
     }
 });
 
