@@ -32,7 +32,7 @@ client.on('message', function(message) {
     if (message.author.equals(client.user)) return;
 
     if (message.content == "v!info") {
-        message.channel.sendMessage("``Prefix= v!(Píšu se jen s malým (v)           Help= v!helpVikturekYoutube/vikturek");
+        message.channel.sendMessage("``Prefix= v!(Píšu se jen s malým (v)           Help= v!help``");
     }
 });
 
