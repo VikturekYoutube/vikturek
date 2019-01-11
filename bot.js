@@ -22,7 +22,7 @@ client.on('message', function(message) {
 });
 
 client.on('message', function(message){
-    if (message.content == "V!trigger") 
+    if (message.content == "v!trigger") 
     {
         message.channel.reply(`Napiš - pls trigger **@ČLOVĚK**`);
     }
@@ -40,14 +40,14 @@ client.on('message', function(message) {
     if (message.author.equals(client.user)) return;
 
     if (message.content == "v!info") {
-        message.channel.sendMessage("Ahoj momentálně Nad mnou pracuje Majitel Vikturek!");
+        message.channel.sendMessage("``Prefix= v!(Píšu se jen s malým (v)           Help= v!help");
     }
 });
 
 client.on('message', function(message) {
     if (message.author.equals(client.user)) return;
 
-    if (message.content == "Cs") {
+    if (message.content == "cs") {
         message.channel.sendMessage("Ahoj Vítej Zpět!");
     }
 });
@@ -72,62 +72,22 @@ client.on('message', function(message) {
     if (message.author.equals(client.user)) return;
 
     if (message.content == "v!nice") {
-        message.channel.sendMessage("*Mlask* Nice! xD");
+        message.channel.sendMessage("**Napiš !nice**");
     }
 });
 
 client.on('message', function(message){
-    if (message.content == "V!trigger") 
+    if (message.content == "v!trigger") 
     {
-        message.channel.reply(`Napiš - pls trigger **@ČLOVĚK**`);
+        message.channel.reply("``Napiš - pls trigger *@ČLOVĚK*``");
     }
 });
 
 client.on('message', function(message) {
     if (message.author.equals(client.user)) return;
 
-    if (message.content == "V!vikturek") {
-        message.channel.sendMessage("Ted zrovna Vikturek Bude natacet videa z Minecraftu takze bude content!");
-    }
-});
-
-client.on('message', function(message) {
-    if (message.author.equals(client.user)) return;
-
-    if (message.content == "V!info") {
-        message.channel.sendMessage("Ahoj momentálně Nad mnou pracuje Majitel Vikturek!");
-    }
-});
-
-client.on('message', function(message) {
-    if (message.author.equals(client.user)) return;
-
-    if (message.content == "cs") {
-        message.channel.sendMessage("Ahoj Vítej Zpět!");
-    }
-});
-
-client.on('message', function(message) {
-    if (message.author.equals(client.user)) return;
-
-    if (message.content == "V!help") {
-        message.channel.sendMessage("``v!vikturek - Ohledně Vikturka!             v!odber - Kanal Vikturka!               v!info - Info O Botovi!                 v!trigger - command na trigger gif                 v!nice - command na Nice gif``");
-    }
-});
-
-client.on('message', function(message) {
-    if (message.author.equals(client.user)) return;
-
-    if (message.content == "V!odber") {
-        message.channel.sendMessage("Ahoj Všichni Nezapomente Dat Like a Odběr Vikturkovi Kanal: https://www.youtube.com/channel/UCKXU6VIZdB0CHbNkHChdKxA");
-    }
-});
-
-client.on('message', function(message) {
-    if (message.author.equals(client.user)) return;
-
-    if (message.content == "V!nice") {
-        message.channel.sendMessage("Napis **!nice**");
+    if (message.content == "v!vikturek") {
+        message.channel.sendMessage("``Ted zrovna Vikturek Bude na Horach zase xD ale potom az prijede bude dobry video z minecraftu takze se muzete tesit :)!``");
     }
 });
 
