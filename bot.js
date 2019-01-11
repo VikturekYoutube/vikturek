@@ -16,7 +16,7 @@ client.on('message', function(message) {
 client.on('message', function(message){
     if (message.content == "v!trigger") 
     {
-        message.channel.reply(`Napiš - pls trigger **@ČLOVĚK**`);
+        message.channel.sendMessage(`Napiš - pls trigger **@ČLOVĚK**`);
     }
 });
 
