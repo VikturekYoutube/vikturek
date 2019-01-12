@@ -8,7 +8,7 @@ client.on('ready', function() {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-bot.user.setActivity ("v!help", { type: "STREAMING"})
+bot.user.setActivity ("v!help", { type: "WATCHING"})
 
 client.on('message', function(message) {
     console.log(message.content);
