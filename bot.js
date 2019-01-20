@@ -8,7 +8,7 @@ client.on('ready', function() {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-bot.user.setActivity ("v!help", { type: "WATCHING"})
+client.Discord.setActivity("v!help")
 
 client.on('message', function(message) {
     console.log(message.content);
@@ -64,7 +64,7 @@ client.on('message', function(message) {
     if (message.author.equals(client.user)) return;
 
     if (message.content == "v!vikturek") {
-        message.channel.sendMessage("``Ted zrovna Vikturek Bude na Horach zase xD ale potom az prijede bude dobry video z minecraftu takze se muzete tesit :)!``");
+        message.channel.sendMessage("``Ted zrovna Vikturek Bude hrat CSGO protoze ho to zacalo docela bavit:)!``");
     }
 });
 
