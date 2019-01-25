@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 
 const client = new Discord.Client();
 ;
-const TOKEN = "NTMyMjk1MjMyNjY3MTIzNzQy.DyX5AA.R5rib0I2TeMOJFYOJGDgQi5TyfM";
+const TOKEN = "NTMyMjk1MjMyNjY3MTIzNzQy.Dy0NHg.sNbXaWIiKymWNU2UF4CTu3p0FaY";
 const prefix = "v!"
 client.on('ready', function() {
   console.log(`Logged in as ${client.user.tag}!`);
