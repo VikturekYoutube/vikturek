@@ -1,14 +1,14 @@
 {
-  "name": "bot",
+  "name": "discordbot",
   "version": "1.0.0",
-  "description": "The Best Bot xD",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Vikturek",
+  "author": "Inv1xe",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "discord.js": "^11.5.1"
   }
 }
